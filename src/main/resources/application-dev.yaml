@@ -1,0 +1,11 @@
+spring:
+  main:
+    log-startup-info: true # выводим служебную информацию
+    banner-mode: off # не выводим баннер
+
+logging.level:
+  ru.yandex.practicum.quiz: TRACE # настраиваем уровень логгера
+
+spring-quiz:
+  report:
+    mode: "concise" # краткий режим отчёта
